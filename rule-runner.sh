@@ -14,8 +14,6 @@ hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/rockyou.txt -r /us
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/leetspeak.rule --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/hob064.rule --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/d3ad0ne.rule --potfile-path=./pot.pot ;
-hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rule1.rule --potfile-path=./pot.pot ;
-hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rule2.rule --potfile-path=./pot.pot ;
 
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/crackstation.txt --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/crackstation.txt -r /usr/share/hashcat/rules/append_d.rule --potfile-path=./pot.pot ;
@@ -23,8 +21,6 @@ hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/crackstation.txt -
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/crackstation.txt -r /usr/share/hashcat/rules/leetspeak.rule --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/crackstation.txt -r /usr/share/hashcat/rules/hob064.rule --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/crackstation.txt -r /usr/share/hashcat/rules/d3ad0ne.rule --potfile-path=./pot.pot ;
-hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/crackstation.txt -r /usr/share/hashcat/rules/rule1.rule --potfile-path=./pot.pot ;
-hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/crackstation.txt -r /usr/share/hashcat/rules/rule2.rule --potfile-path=./pot.pot ;
 
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2 --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2 -r /usr/share/hashcat/rules/append_d.rule --potfile-path=./pot.pot ;
@@ -32,8 +28,6 @@ hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2 -r /usr
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2 -r /usr/share/hashcat/rules/leetspeak.rule --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2 -r /usr/share/hashcat/rules/hob064.rule --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2 -r /usr/share/hashcat/rules/d3ad0ne.rule --potfile-path=./pot.pot ;
-hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2 -r /usr/share/hashcat/rules/rule1.rule --potfile-path=./pot.pot ;
-hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2 -r /usr/share/hashcat/rules/rule2.rule --potfile-path=./pot.pot ;
 
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2a --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2a -r /usr/share/hashcat/rules/append_d.rule --potfile-path=./pot.pot ;
@@ -41,5 +35,12 @@ hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2a -r /us
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2a -r /usr/share/hashcat/rules/leetspeak.rule --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2a -r /usr/share/hashcat/rules/hob064.rule --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2a -r /usr/share/hashcat/rules/d3ad0ne.rule --potfile-path=./pot.pot ;
+
+hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rule1.rule --potfile-path=./pot.pot ;
+hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rule2.rule --potfile-path=./pot.pot ;
+hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/crackstation.txt -r /usr/share/hashcat/rules/rule1.rule --potfile-path=./pot.pot ;
+hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/crackstation.txt -r /usr/share/hashcat/rules/rule2.rule --potfile-path=./pot.pot ;
+hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2 -r /usr/share/hashcat/rules/rule1.rule --potfile-path=./pot.pot ;
+hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2 -r /usr/share/hashcat/rules/rule2.rule --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2a -r /usr/share/hashcat/rules/rule1.rule --potfile-path=./pot.pot ;
 hashcat -D1,2 -w3 -m $mode -a0 $hashfile /usr/share/wordlists/weakpass_2a -r /usr/share/hashcat/rules/rule2.rule --potfile-path=./pot.pot ;
