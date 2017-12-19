@@ -11,7 +11,11 @@ A quick script to run hashcat through some wordlists and rules. We've had really
   * https://github.com/hashcat/hashcat/tree/master/rules
 * Crackstation Wordlist
   * https://crackstation.net/buy-crackstation-wordlist-password-cracking-dictionary.htm
+* Weakpass wordlists
+  * https://weakpass.com/download 
 * Hob0 Rules
   * https://github.com/praetorian-inc/Hob0Rules 
 * Rules 1 and 2
   * https://hashcat.net/forum/thread-4580.html
+* Rockyou Wordlist
+  * https://github.com/danielmiessler/SecLists/blob/master/Passwords/rockyou.txt.tar.gz
